@@ -1,0 +1,2 @@
+# VDStockvariable.html
+StocksVD
