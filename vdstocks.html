@@ -1,24 +1,40 @@
-<!DOCTYPE html>
-<html>
-<body>
+<!doctype html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <title>StockVariables</title>
+   <link rel="stylesheet" href="myStyles.css">
+   <script>
+     /* <![CDATA[ */
+     // Most JavaScript code goes in the head section.
+     /* ]]> */
 
-<h2>StockVariable.html</h2>
+     let myVariable1 = 145.26;
+     let myVariable2 = 588.84;
+     let myVariable3 = 159.60;
+     let myVariable4 = 118.85;
+     let myVariable5 = 184.76;
+
+   </script>
+ <!--[if lt IE 9]>
+ <script src="dist/html5shiv.js"></script>
+ <![endif]-->
+ </head>
+
+ <body>
+   <!-- Your HTML content goes inside the body tag, below this comment.  -->
+   <script>
+     /* <![CDATA[ */
+     // But JavaScript code can go wherever it needs to be, including in the body.
+     /* ]]> */
+
+     document.write("Walmart = " + myVariable1);
+     document.write("Netflix = " + myVariable2);
+     document.write("Nike = " + myVariable3);
+     document.write("Starbucks = " + myVariable4);
+     document.write("Walt Disney = " + myVariable5);
 
 
-
-<p id="demo"></p>
-
-<script>
-var stockWalmart = "145.26" ;
-var stockNetflix = "588.84" ;
-var stockNike = "159.60" ;
-var stockStarbucks = "118.85" ;
-var stockWaltDisney = "184.76" ;
-
-document.getElementById("demo").innerHTML = 
-stockWalmart + "<br>" + stockNexflix + "<br>" + stockNike  + "<br>" + stockStarbucks + "<br>" + stockWaltDisney ;
-
-</script>
-
-</body>
-</html>
+   </script>
+ </body>
+ </html>
